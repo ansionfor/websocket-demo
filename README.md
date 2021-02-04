@@ -7,7 +7,9 @@
 git clone https://github.com/ansionfor/websocket-demo.git
 ```
 
-### 2、运行
+### 2、导入sql，修改配置文件
+
+### 3、运行
 ```sql
 go run main.go
 
@@ -15,7 +17,7 @@ go run main.go
 2021/02/04 19:57:10.428 [I] [asm_amd64.s:1374]  http server Running on http://:8080
 
 ```
-### 3、连接
+### 4、连接
 ```sql
 var ws = new WebSocket("ws://ip:8080/ws?sessionId=1");
 
