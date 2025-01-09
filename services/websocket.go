@@ -14,7 +14,7 @@ type ResponseType int
 
 const (
 	RT_SINGLE_MSG 				= 0		// 私聊，用户收到消息时响应
-	RT_FRIEND_UNREAD_MSG 		= 1		// 好友列表以及未读消息汇总，用户上线后响应
+	RT_FRIEND_UNREAD_MSG 			= 1		// 好友列表以及未读消息汇总，用户上线后响应
 	RT_HISTORY_MSG				= 2		// 历史消息，用户触发后响应
 	PING = "ping"
 	PONG = "pong"
