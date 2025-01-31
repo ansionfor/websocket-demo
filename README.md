@@ -1,5 +1,5 @@
 # Websocket Demo
-基于beego的websocket点对点私聊demo
+基于beego框架及websocket协议的点对点私聊DEMO项目
 
 ### 1、下载
 
