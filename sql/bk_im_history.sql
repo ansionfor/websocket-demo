@@ -8,4 +8,4 @@ CREATE TABLE `bk_im_history` (
  `is_received` tinyint(2) NOT NULL DEFAULT '0' COMMENT '1已收到，0未收到',
  PRIMARY KEY (`id`),
  KEY `from_to_time` (`f_publish_id`,`t_publish_id`,`c_time`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='聊天历史'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='聊天历史'
