@@ -1,4 +1,4 @@
-# Websocket Demo
+# WebSocket Demo
 基于beego框架及websocket协议的点对点私聊DEMO项目
 
 ### 1、下载
